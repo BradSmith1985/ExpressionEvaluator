@@ -1,22 +1,13 @@
 ![ExpressionEvaluator Icon](https://github.com/codingseb/ExpressionEvaluator/blob/master/Icon.png?raw=true "ExpressionEvaluator A Simple Math and Pseudo C# Expression Evaluator in One C# File") 
 # ExpressionEvaluator
 
-| :warning: For now, I don't have time to maintain this repository. So if you have PR to fix some bugs. I'll be happy to review and merge it. Otherwise, I will no longer actively develop ExpressionEvaluator. If the current state of the lib do not suite your needs I suggest you look the [list of great alternative projects](#similar-projects) below.
-| --- |
+Forked from [CodingSeb's repository of the same name](https://github.com/codingseb/ExpressionEvaluator).
 
 A Simple Math and Pseudo C# Expression Evaluator in One [C# File](./CodingSeb.ExpressionEvaluator/ExpressionEvaluator.cs).
 
 And from version 1.2.0 can execute small C# like scripts 
 
 It is largely based on and inspired by the following resources [this post on stackoverflow](http://stackoverflow.com/questions/333737/evaluating-string-342-yield-int-18/333749), [NCalc](https://github.com/pitermarx/NCalc-Edge), [C# Operators](https://msdn.microsoft.com/en-us/library/6a71f45d.aspx) and [C# Statement Keywords](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/statement-keywords)
-
-## Status
-
-|Branch|Status|
-|---|---|
-|master|[![Build Status](https://coding-seb.visualstudio.com/_apis/public/build/definitions/cbe8d2f2-9c7a-48aa-8366-89ef39381eff/1/badge)](https://coding-seb.visualstudio.com/ExpressionEvaluator/_build/index?definitionId=1)|
-|dev|[![Dev Status](https://coding-seb.visualstudio.com/_apis/public/build/definitions/cbe8d2f2-9c7a-48aa-8366-89ef39381eff/2/badge)](https://coding-seb.visualstudio.com/ExpressionEvaluator/_build/index?definitionId=2)|
-|nuget|[![NuGet Status](http://img.shields.io/nuget/v/CodingSeb.ExpressionEvaluator.svg?style=flat&max-age=86400)](https://www.nuget.org/packages/CodingSeb.ExpressionEvaluator/)|
 
 ## Features
 * Basic mathematical and logical expression evaluation
@@ -95,10 +86,3 @@ The biggest difference of ExpressionEvaluator is that everything is evaluated on
 So it can be slower in some cases (sometimes not) but it also avoid a lot of memory leaks. It is clearly not optimized for big reuse of expressions as the expression is reevaluated every time (Filtering on big dataset for example).
 It already allow to evaluate some small scripts.
 If you don't want an another .dll file in your project, you only need to copy one [C# file](./CodingSeb.ExpressionEvaluator/ExpressionEvaluator.cs) in your project. And it's [MIT licence](./LICENSE.md)
-
-### Donate
-Expression Evaluator is free and will always be.  
-But if you want to say thanks for this lib with a donation or small sponsoring here you can :  
-[Donate](https://www.paypal.com/donate?hosted_button_id=7K467U3H4NVJG)
-
-Thank you anyway for using ExpressionEvaluator
