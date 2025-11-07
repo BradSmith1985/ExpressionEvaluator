@@ -5,24 +5,22 @@
     <Product>CodingSeb.ExpressionEvaluator</Product>
     <Description>A Simple Math and Pseudo C# Expression Evaluator in One C# File. Can also execute small C# like scripts</Description>
     <Copyright>Copyright © Coding Seb 2017</Copyright>
-    <Version>1.4.40.0</Version>
-    <AssemblyVersion>1.4.40.0</AssemblyVersion>
-    <FileVersion>1.4.40.0</FileVersion>
+    <Version>1.4.41.0</Version>
+    <AssemblyVersion>1.4.41.0</AssemblyVersion>
+    <FileVersion>1.4.41.0</FileVersion>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <Authors>Coding Seb</Authors>
     <PackageId>CodingSeb.ExpressionEvaluator</PackageId>
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/codingseb/ExpressionEvaluator</PackageProjectUrl>
     <PackageTags>expression-evaluator evaluation math expression evaluate parser mathematical-expressions-evaluator mathematical-expressions script scripting evaluator csharp-script eval execute executescript evaluate-expressions expression-parser fluid calculations formula netcore netstandard net45 interpreter</PackageTags>
-    <TargetFrameworks>net462;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net462;netstandard2.0;net5.0;net6.0;net8.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	<Nullable>disable</Nullable>
     <PackageIconUrl>https://github.com/codingseb/ExpressionEvaluator/blob/master/Icon.png?raw=true</PackageIconUrl>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>* Make shared cache for types resolution thread safe
-* Add ScriptEvaluating and ScriptEvaluated events
-* Add unaryOperatorsDictionary to manage custom operators that are both unaries and binaries better</PackageReleaseNotes>
+    <PackageReleaseNotes>* fix: addition of null and bubble container</PackageReleaseNotes>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <RepositoryUrl>https://github.com/codingseb/ExpressionEvaluator</RepositoryUrl>
 	<GenerateDocumentationFile>true</GenerateDocumentationFile>
